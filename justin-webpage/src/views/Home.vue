@@ -1,9 +1,9 @@
 <template>
   <div class="home">
-    <landing class="landing"/>
-    <about class="under" data-aos="fade"/>
-    <projects data-aos="fade"/>
-    <contact data-aos="fade"/>
+    <landing id="landing" class="landing"/>
+    <about id="about" class="under" data-aos="fade-left"/>
+    <projects id="projects" data-aos="fade-right"/>
+    <contact id="contact" data-aos="fade-left"/>
   </div>
 </template>
 
@@ -26,21 +26,33 @@ export default {
 </script>
 
 <style scoped>
+/* 
+COLOR PALETTE:
+#17252a
+#2b7a78
+#3aafa9
+#def2f1
+#feffff 
+*/
+
+#home{
+  width: 90px;
+}
+
 .landing{
     height: 100%;
     left: 0;
     position: absolute;
     top: 0;
     width: 100vw;
-    padding: 15px;
 }
 
 .under{
-  margin-top: 115vh;
+  margin-top: 100vh;
 }
 
 *{
-  height: 100vh;
+  height: 95vh;
 }
 
 

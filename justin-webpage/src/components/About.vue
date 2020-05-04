@@ -1,6 +1,6 @@
 <template>
   
-  <div>
+  <div id="about-body">
       <h1>About</h1>
   </div>
 
@@ -12,6 +12,9 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+#about-body{
+
+}
 
 </style>
